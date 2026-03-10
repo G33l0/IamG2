@@ -2,7 +2,7 @@
 
 <!-- BANNER IMAGE — upload IamG2_banner.png to your repo root and it will display here -->
 
-<img src="https://github.com/G33l0/IamG2/blob/main/IamG2.jpg" alt="IamG2 Banner" width="100%"/>
+<img src="https://github.com/G33l0/IamG2/blob/main/IamG2%20banner.png" alt="IamG2 Banner" width="100%"/>
 
 <br/><br/>
 
