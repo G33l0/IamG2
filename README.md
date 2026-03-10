@@ -156,7 +156,7 @@ whoami = {
 |🎯 **Low False Positives**    |Multi-gate detection logic with 104-test CI discipline and deep FP audits             |
 |📊 **Business-Ready Reports** |Threat reports built for both technical teams and executive decision-makers           |
 |⚡ **Production-Grade Code**  |Deployed tools with async design, rate limiting, deduplication, and Telegram alerting |
-|🔄 **Continuous Iteration**   |Active versioned development (v4.8, v1.3) with changelog discipline                   |
+|🔄 **Continuous Iteration**   |Active versioned development (v4.12, v1.3) with changelog discipline                   |
 |🏢 **Enterprise CVE Coverage**|SAP NetWeaver, SAP Solution Manager, WordPress, cPanel, and common web stacks         |
 |🔬 **Attacker Mindset**       |All tooling outputs are structured to answer: *“What would an attacker do with this?”*|
 
