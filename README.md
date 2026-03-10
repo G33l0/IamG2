@@ -1,11 +1,8 @@
 <div align="center">
 
-<!-- BANNER IMAGE — upload IamG2_banner.png to your repo root and it will display here -->
-
 <img src="https://github.com/G33l0/IamG2/blob/main/IamG2%20banner.png" alt="IamG2 Banner" width="100%"/>
 
 <br/><br/>
-
 <!-- Animated typing role banner -->
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=FF0000&center=true&vCenter=true&width=750&lines=%F0%9F%94%B4+Offensive+Security+Engineer;%F0%9F%94%B4+Vulnerability+Scanner+Builder;%F0%9F%94%B4+OSINT+%26+Recon+Specialist;%F0%9F%94%B4+CVE+Hunter+%26+Exploit+Developer;%F0%9F%94%B4+Red+Team+Automation+Engineer" alt="Typing SVG" />
