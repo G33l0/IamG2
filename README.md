@@ -208,8 +208,8 @@ whoami = {
 |🐙 GitHub  |[github.com/g33l0](https://github.com/g33l0)             |
 |✈️ Telegram|[@x0x0h33l0](https://t.me/x0x0h33l0)                     |
 |📧 Email   |[obileyegideon@gmail.com](mailto:obileyegideon@gmail.com)|
-| 𝕏 X       |[@ObileyeG] https://x.com/ObileyeG                                  |
-| 🎵 TikTok |[@iamg33lo] https://tiktok.com/@iamg33lo                            |
+| 𝕏 Twitter/X|https://x.com/ObileyeG                                  |
+| 🎵 TikTok |https://tiktok.com/@iamg33lo                            |
 
 <br/>
 
