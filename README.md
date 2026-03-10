@@ -208,12 +208,17 @@ whoami = {
 |🐙 GitHub  |[github.com/g33l0](https://github.com/g33l0)             |
 |✈️ Telegram|[@x0x0h33l0](https://t.me/x0x0h33l0)                     |
 |📧 Email   |[obileyegideon@gmail.com](mailto:obileyegideon@gmail.com)|
+| 𝕏 X       |[@ObileyeG] https://x.com/ObileyeG                                  |
+| 🎵 TikTok |[@iamg33lo] https://tiktok.com/@iamg33lo                            |
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-g33l0-181717?style=for-the-badge&logo=github)](https://github.com/g33l0)
-[![Telegram](https://img.shields.io/badge/Telegram-@x0x0h33l0-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/x0x0h33l0)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:obileyegideon@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-g33l0-181717?style=for-the-badge\&logo=github)](https://github.com/g33l0)
+[![Telegram](https://img.shields.io/badge/Telegram-@x0x0h33l0-2CA5E0?style=for-the-badge\&logo=telegram\&logoColor=white)](https://t.me/x0x0h33l0)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:obileyegideon@gmail.com)
+[![X](https://img.shields.io/badge/X-@ObileyeG-000000?style=for-the-badge\&logo=x\&logoColor=white)](https://x.com/ObileyeG)
+[![TikTok](https://img.shields.io/badge/TikTok-@iamg33lo-000000?style=for-the-badge\&logo=tiktok\&logoColor=white)](https://tiktok.com/@iamg33lo)
+
 
 <br/>
 
