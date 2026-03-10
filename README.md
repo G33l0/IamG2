@@ -57,7 +57,7 @@ whoami = {
 
 ## 🛠️ Custom Security Tools (Production-Deployed)
 
-### 🔴 [EnvHunter](https://github.com/g33l0) `v4.8` — Environment File Exposure Scanner
+### 🔴 [EnvHunter](https://github.com/g33l0/envhunter) `v4.12` — Environment File Exposure Scanner
 
 > Detects exposed `.env` files across web targets with high accuracy and minimal false positives.
 
@@ -67,12 +67,12 @@ whoami = {
 - **Real-world impact**: Uncovers exposed database credentials, API keys, and secret tokens before attackers do
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
-![Status](https://img.shields.io/badge/Status-v4.8%20Deployed-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-v4.12%20Deployed-brightgreen?style=flat-square)
 ![Type](https://img.shields.io/badge/Type-Exposure%20Scanner-red?style=flat-square)
 
 -----
 
-### 🔴 [RedHunter](https://github.com/g33l0) `v1.3` — Multi-CVE Vulnerability Scanner
+### 🔴 [RedHunter](https://github.com/g33l0/redhunter) `v1.3` — Multi-CVE Vulnerability Scanner
 
 > Automated scanner targeting high-severity CVEs across web stacks, with enterprise SAP coverage.
 
@@ -89,7 +89,7 @@ whoami = {
 
 -----
 
-### 🔴 [ShadowScraper](https://github.com/g33l0) — OSINT & Reconnaissance CLI
+### 🔴 [ShadowScraper](https://github.com/g33l0/shadowscraper) — OSINT & Reconnaissance CLI
 
 > Python CLI tool for deep OSINT reconnaissance and attack surface mapping from an attacker’s perspective.
 
@@ -104,7 +104,7 @@ whoami = {
 
 -----
 
-### 🔴 [SpiderWeb Pro](https://github.com/g33l0) — Async Network Recon & Vuln Scanner
+### 🔴 [SpiderWeb Pro](https://github.com/g33l0/spiderweb) — Async Network Recon & Vuln Scanner
 
 > High-performance async network reconnaissance tool for large-scale infrastructure assessments.
 
