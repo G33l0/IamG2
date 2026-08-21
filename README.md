@@ -22,7 +22,7 @@
 <br/><br/>
 
 <img src="https://img.shields.io/badge/Focus-Offensive%20Security-FF0000?style=for-the-badge&logo=hackaday&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tools%20Built-4%20Deployed-brightgreen?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tools%20Shipped-11%20Deployed-brightgreen?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Tests%20Passing-104%2F104-00CC44?style=for-the-badge&logo=pytest&logoColor=white"/>
 <img src="https://img.shields.io/badge/CVE%20Coverage-CVSS%209.9-CC0000?style=for-the-badge"/>
 
@@ -57,7 +57,9 @@ whoami = {
 
 ## 🛠️ Custom Security Tools (Production-Deployed)
 
-### 🔴 [EnvHunter](https://github.com/g33l0/envhunter) `v4.12` — Environment File Exposure Scanner
+### ⚔️ Vulnerability Scanning & Recon
+
+#### 🔴 [EnvHunter](https://github.com/g33l0/envhunter) `v4.12` — Environment File Exposure Scanner
 
 > Detects exposed `.env` files across web targets with high accuracy and minimal false positives.
 
@@ -72,7 +74,7 @@ whoami = {
 
 -----
 
-### 🔴 [RedHunter](https://github.com/g33l0/redhunter) `v1.3` — Multi-CVE Vulnerability Scanner
+#### 🔴 [RedHunter](https://github.com/g33l0/redhunter) `v1.3` — Multi-CVE Vulnerability Scanner
 
 > Automated scanner targeting high-severity CVEs across web stacks, with enterprise SAP coverage.
 
@@ -89,22 +91,7 @@ whoami = {
 
 -----
 
-### 🔴 [ShadowScraper](https://github.com/g33l0/shadowscraper) — OSINT & Reconnaissance CLI
-
-> Python CLI tool for deep OSINT reconnaissance and attack surface mapping from an attacker’s perspective.
-
-- **Domain & IP enumeration** with precision regex (no false-matching IPs as domains)
-- **IPv6 support** — complete coverage across all address families
-- **Attacker-perspective output** — findings structured to highlight real exploitation paths
-- Identifies: exposed `.git` directories, cPanel panels, `phpinfo()` debug pages, dependency file leaks, WordPress REST API user enumeration
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
-![OSINT](https://img.shields.io/badge/Type-OSINT%2FRecon-orange?style=flat-square)
-![CLI](https://img.shields.io/badge/Interface-CLI-black?style=flat-square)
-
------
-
-### 🔴 [SpiderWeb Pro](https://github.com/g33l0/spiderweb) — Async Network Recon & Vuln Scanner
+#### 🔴 [SpiderWeb Pro](https://github.com/g33l0/spiderweb) — Async Network Recon & Vuln Scanner
 
 > High-performance async network reconnaissance tool for large-scale infrastructure assessments.
 
@@ -117,6 +104,135 @@ whoami = {
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
 ![Async](https://img.shields.io/badge/Architecture-Async-purple?style=flat-square)
 ![Network](https://img.shields.io/badge/Type-Network%20Recon-blue?style=flat-square)
+
+-----
+
+#### 🔴 [Cache Vulnerability Toolkit](https://github.com/g33l0/cache-vulnerability-toolkit) — Web Cache Attack Suite
+
+> Identifies and tests web cache vulnerabilities, with a focus on custom cache stacks (Varnish, Nginx) vs CDN caches (Cloudflare, Fastly).
+
+- **Cache fingerprinting** — instantly classifies targets by cache technology (`X-Cache` vs CDN) via Python or a lightning-fast Bash detector
+- **Cache poisoning detection** — unkeyed headers and parameters, with severity-rated findings
+- **Cache deception testing** — static-extension bypass techniques
+- **Stack-specific attacks** — Varnish VCL/ESI injection, Nginx method override & cache bypass, WordPress cache-plugin testing
+- Detailed reporting with remediation suggestions — built for bug bounty and authorized testing
+
+![Python](https://img.shields.io/badge/Python-3.6+-blue?style=flat-square&logo=python)
+![Type](https://img.shields.io/badge/Type-Cache%20Poisoning-red?style=flat-square)
+![Bash](https://img.shields.io/badge/Also-Bash-black?style=flat-square&logo=gnubash)
+
+-----
+
+### 🩸 Red Team & Bug Bounty Frameworks
+
+#### 🔴 [REVUEX](https://github.com/g33l0/REVUEX) — Bug Bounty Automation Framework
+
+> Twenty specialized security scanners unified into one toolkit that outputs **bug-bounty-ready reports**.
+
+- **20 modular scanners** — use standalone or as an integrated suite, with findings from one tool feeding the others
+- **Bounty-ready reporting** — HTML / JSON / Markdown reports with evidence collection and remediation guidance
+- **Safety first** — rate limiting, scope validation, and responsible-testing controls baked in
+- **Efficient by design** — parallel scanning with configurable concurrency
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
+![Type](https://img.shields.io/badge/Type-Bug%20Bounty%20Suite-red?style=flat-square)
+![Reports](https://img.shields.io/badge/Reports-HTML%2FJSON%2FMD-orange?style=flat-square)
+
+-----
+
+#### 🔴 [cPwn3r](https://github.com/g33l0/cPwn3r) — cPanel / WHM Red Team Framework
+
+> Modular, multi-threaded framework for **authorized** red-team engagements against cPanel & WHM hosting platforms.
+
+- **Multi-vector exploitation** — GraphQL injection (cPanel v120+) and legacy `Authorization` header bypass
+- **Intelligent scanning** — IPv4/IPv6 across standard cPanel ports (2082/2083/2086/2087/2095/2096)
+- **Session persistence** — stores and re-uses valid tokens across runs; thread-safe SQLite (WAL) state tracking
+- **Telegram C2** — result summaries and extracted email lists delivered as attachments
+- **Graceful fallbacks** — `curl_cffi` TLS impersonation when available, else `requests`
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
+![Type](https://img.shields.io/badge/Type-Red%20Team-880000?style=flat-square)
+![Scope](https://img.shields.io/badge/Use-Authorized%20Only-red?style=flat-square)
+
+-----
+
+### 🛰️ Reconnaissance, OSINT & Data Intelligence
+
+#### 🔴 [ShadowScraper](https://github.com/g33l0/shadowscraper) — OSINT & Reconnaissance CLI
+
+> Fast, cross-platform CLI for extracting emails, domains, IPs, and URLs from almost any file type.
+
+- **Domain & IP enumeration** with precision regex (no false-matching IPs as domains)
+- **IPv6 support** — complete coverage across all address families
+- **Attacker-perspective output** — findings structured to highlight real exploitation paths
+- Identifies: exposed `.git` directories, cPanel panels, `phpinfo()` debug pages, dependency file leaks, WordPress REST API user enumeration
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![OSINT](https://img.shields.io/badge/Type-OSINT%2FRecon-orange?style=flat-square)
+![CLI](https://img.shields.io/badge/Interface-CLI-black?style=flat-square)
+
+-----
+
+#### 🔴 [Alien-Track](https://github.com/g33l0/Alien-Tracker) — OSINT Swiss Army Knife
+
+> IP, phone, username, email, domain, and port intelligence in one interactive terminal tool.
+
+- **IP intel** — geolocation, ISP, ASN, timezone, and proxy/VPN detection
+- **Username hunting** — parallel, multi-threaded checks across **45+** social, coding, and gaming platforms
+- **Email intelligence** — Gravatar presence, HaveIBeenPwned breach history, EmailRep reputation, domain WHOIS
+- **Phone & domain** — carrier/type classification (wireless/landline/VoIP), full WHOIS records, basic TCP port scan
+- **iSH (iOS) compatible** — runs seamlessly on mobile
+
+![Python](https://img.shields.io/badge/Python-3.7+-blue?style=flat-square&logo=python)
+![OSINT](https://img.shields.io/badge/Type-OSINT-orange?style=flat-square)
+![Platforms](https://img.shields.io/badge/Coverage-45+%20Sites-brightgreen?style=flat-square)
+
+-----
+
+#### 🔴 [PhotoSleuth](https://github.com/g33l0/Photosleuth) `v1.0.0` — Image Analysis & Forensics Toolkit
+
+> Extract metadata, pinpoint locations, reverse-search the web, and scrub sensitive data from images.
+
+- **Full EXIF extraction** — camera, lens, exposure, ISO, date, and hundreds of tags
+- **GPS geocoding** — converts coordinates to a human-readable address with a Google Maps link
+- **Reverse image search** — Google Vision API to surface web entities and matching pages
+- **Privacy scrubbing** — strip all metadata from a copy; batch process entire folders
+- **Interactive folium map + CSV export** — plot every geotagged image and export for analysis
+
+![Python](https://img.shields.io/badge/Python-3.6+-blue?style=flat-square&logo=python)
+![Type](https://img.shields.io/badge/Type-Image%20Forensics-orange?style=flat-square)
+![Mode](https://img.shields.io/badge/Interface-Menu%20%2B%20CLI-black?style=flat-square)
+
+-----
+
+#### 🔴 [Domain Collector](https://github.com/g33l0/All-Domain) — Async Domain Intelligence Engine
+
+> Always-on, self-updating map of the internet’s live domains, grouped by the technologies they run.
+
+- **Continuous discovery** — pulls domains from public feeds (Certificate Transparency, DNS) and refreshes on an interval
+- **Responsiveness validation** — probes HTTP/HTTPS, drops the dead, keeps the live
+- **Tech fingerprinting** — identifies servers, frameworks, and CMS, writing results to `output/<technology>.txt` in real time
+- **Guaranteed dedup** — SQLite backend with a UNIQUE fingerprint constraint, so no domain is ever stored twice
+- **Async at scale** — configurable concurrency for high-speed processing
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
+![Async](https://img.shields.io/badge/Architecture-Async-purple?style=flat-square)
+![Type](https://img.shields.io/badge/Type-Attack%20Surface-blue?style=flat-square)
+
+-----
+
+#### 🔴 [401K Finder Pro](https://github.com/g33l0/401k-finder) — Retirement Plan Intelligence (Form 5500)
+
+> Find retirement plans — and the firms that hold and administer them — from the U.S. Department of Labor’s public Form 5500 filings.
+
+- **Public-records intelligence** — downloads the EBSA dataset and joins two dozen CSVs per year correctly by acknowledgement ID
+- **Answers the hard question** — *who actually holds this 401(k), and who runs it?* Surfaces recordkeeper, trustee, investment manager, and accountant
+- **Precise plan classification** — 401(k), 403(b), 457(b), SEP/SIMPLE, ESOP, defined-benefit, cash balance, and PEP, read from plan-characteristics codes
+- **Fully offline & cited** — runs entirely on your machine and cites the exact filing field behind every answer
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![Type](https://img.shields.io/badge/Type-Data%20Intelligence-teal?style=flat-square)
+![Source](https://img.shields.io/badge/Source-DOL%20Form%205500-green?style=flat-square)
 
 -----
 
@@ -157,6 +273,7 @@ whoami = {
 |📊 **Business-Ready Reports** |Threat reports built for both technical teams and executive decision-makers           |
 |⚡ **Production-Grade Code**  |Deployed tools with async design, rate limiting, deduplication, and Telegram alerting |
 |🔄 **Continuous Iteration**   |Active versioned development (v4.12, v1.3) with changelog discipline                   |
+|🧰 **Full-Suite Coverage**    |11 shipped tools spanning scanning, red-team frameworks, OSINT, and data intelligence |
 |🏢 **Enterprise CVE Coverage**|SAP NetWeaver, SAP Solution Manager, WordPress, cPanel, and common web stacks         |
 |🔬 **Attacker Mindset**       |All tooling outputs are structured to answer: *“What would an attacker do with this?”*|
 
@@ -186,10 +303,13 @@ whoami = {
 ![OSINT](https://img.shields.io/badge/-OSINT%20%26%20Recon-FF6600?style=for-the-badge)
 ![CVE Research](https://img.shields.io/badge/-CVE%20Research-CC0000?style=for-the-badge)
 ![Red Team](https://img.shields.io/badge/-Red%20Team%20Automation-880000?style=for-the-badge)
+![Bug Bounty](https://img.shields.io/badge/-Bug%20Bounty%20Automation-E60023?style=for-the-badge)
 ![SAP Security](https://img.shields.io/badge/-SAP%20Enterprise-AA0000?style=for-the-badge)
 ![WordPress](https://img.shields.io/badge/-WordPress%20Hardening-DD2222?style=for-the-badge)
 ![Network Recon](https://img.shields.io/badge/-Network%20Recon-FF2222?style=for-the-badge)
+![Cache Poisoning](https://img.shields.io/badge/-Cache%20Poisoning-B22222?style=for-the-badge)
 ![Env Exposure](https://img.shields.io/badge/-.env%20Exposure%20Detection-CC2200?style=for-the-badge)
+![Image Forensics](https://img.shields.io/badge/-Image%20Forensics-FF3344?style=for-the-badge)
 ![SSL Analysis](https://img.shields.io/badge/-SSL%20Cert%20Analysis-BB1100?style=for-the-badge)
 ![Threat Reporting](https://img.shields.io/badge/-Threat%20Reporting-990000?style=for-the-badge)
 
@@ -234,7 +354,7 @@ whoami = {
 [ AUTHORIZED TESTING ONLY — ALL TOOLS USED ETHICALLY AND LEGALLY ]
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=FF0000&center=true&vCenter=true&width=650&lines=Scanning+the+surface+others+ignore...;Building+tools+that+scale+beyond+manual+review...;Finding+what+attackers+find+%E2%80%94+before+they+do.;4+tools+deployed.+104+tests+passing.+0+excuses." alt="Footer typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=FF0000&center=true&vCenter=true&width=650&lines=Scanning+the+surface+others+ignore...;Building+tools+that+scale+beyond+manual+review...;Finding+what+attackers+find+%E2%80%94+before+they+do.;11+tools+shipped.+104+tests+passing.+0+excuses." alt="Footer typing" />
 
 <br/>
 
