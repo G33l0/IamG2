@@ -283,13 +283,13 @@ whoami = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=g33l0&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=FF0000&icon_color=FF4444&text_color=ffffff&border_color=FF0000&count_private=true&include_all_commits=true"/>
+<img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=g33l0&theme=radical"/>
 &nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=g33l0&layout=compact&theme=dark&bg_color=0d0d0d&title_color=FF0000&text_color=ffffff&border_color=FF0000"/>
+<img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=g33l0&theme=radical"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=g33l0&theme=dark&background=0d0d0d&ring=FF0000&fire=FF4444&currStreakLabel=FF0000&sideLabels=ffffff&dates=888888&border=FF0000"/>
+<img src="https://streak-stats.demolab.com/?user=g33l0&theme=dark&background=0d0d0d&ring=FF0000&fire=FF4444&currStreakLabel=FF0000&sideLabels=ffffff&dates=888888&border=FF0000"/>
 
 </div>
 
